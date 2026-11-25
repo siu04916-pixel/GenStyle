@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="GenStyle — katalog fashion: jelajahi cargo, denim, sneakers, outerwear, dan aksesori dari berbagai brand dalam satu tempat.">
+<title>GenStyle — Katalog Fashion</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07090f;--fg:#eef2f8;--mute:#8e99ad;--card:#0e131d;--line:#1d2635;--acc:#c6ff3d;--acc2:#3de0ff;--on-acc:#07090f;--glass:rgba(10,14,22,.62);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f1f4f8;--fg:#0a0e16;--mute:#556073;--card:#fff;--line:#d9e0ea;--acc:#0a6cff;--acc2:#00a3c4;--on-acc:#fff;--glass:rgba(255,255,255,.7)}}
+:root[data-theme="dark"]{--bg:#07090f;--fg:#eef2f8}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 72px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Space Grotesk",system-ui,sans-serif;line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--bg)}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--glass);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.logo{font-family:Syne,sans-serif;font-weight:800;font-size:1.35rem;letter-spacing:.04em}
+.logo span{color:var(--acc)}
+nav a{margin-left:22px;font-size:.85rem;color:var(--mute);letter-spacing:.08em;text-transform:uppercase}
+nav a:hover{color:var(--acc)}
+.hero{position:relative;min-height:min(86vh,760px);display:flex;align-items:flex-end;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:52% 40%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,9,15,.15) 0%,rgba(7,9,15,.2) 45%,rgba(7,9,15,.92) 100%),linear-gradient(90deg,rgba(7,9,15,.55),transparent 55%)}
+.hero .wrap{position:relative;z-index:2;padding-bottom:48px;width:100%;color:#eef2f8}
+.tag{display:inline-block;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;border:1px solid var(--acc);color:var(--acc);padding:5px 12px;border-radius:99px;background:rgba(7,9,15,.5)}
+h1{font-family:Syne,sans-serif;font-weight:800;font-size:clamp(2.6rem,9vw,6.4rem);line-height:.95;margin:16px 0 14px;letter-spacing:-.02em}
+h1 em{font-style:normal;color:var(--acc);text-shadow:0 0 28px color-mix(in srgb,var(--acc) 55%,transparent)}
+.hero p{max-width:480px;color:#cdd5e2;margin:0 0 24px}
+.btn{display:inline-block;border:0;cursor:pointer;font:inherit;font-weight:700;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;padding:13px 24px;border-radius:99px;background:var(--acc);color:var(--on-acc);transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 28px color-mix(in srgb,var(--acc) 40%,transparent)}
+.btn.ghost{background:transparent;color:#eef2f8;border:1px solid rgba(238,242,248,.5);margin-left:8px}
+.marq{overflow:hidden;border-bottom:1px solid var(--line);white-space:nowrap;padding:12px 0;color:var(--mute);font-size:.8rem;letter-spacing:.25em;text-transform:uppercase}
+.marq div{display:inline-block;animation:m 28s linear infinite}
+@keyframes m{to{transform:translateX(-50%)}}
+section{padding:72px 0}
+.sh{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:28px}
+h2{font-family:Syne,sans-serif;font-size:clamp(1.7rem,4vw,2.6rem);margin:0;line-height:1}
+.sub{color:var(--mute);font-size:.9rem;margin-top:8px}
+.tools{display:flex;gap:10px;flex-wrap:wrap}
+.tools input,.tools select{background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:99px;padding:11px 18px;font:inherit;font-size:.9rem;min-width:0}
+.tools input:focus,.tools select:focus,.btn:focus-visible,.chip:focus-visible{outline:2px solid var(--acc2);outline-offset:2px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column;transition:transform .25s,border-color .25s}
+.card:hover{transform:translateY(-5px);border-color:var(--acc)}
+.pic{position:relative;aspect-ratio:4/5;display:grid;place-items:center;font-family:Syne,sans-serif;font-weight:800;font-size:3.4rem;color:rgba(255,255,255,.88);background-image:linear-gradient(135deg,var(--a),var(--b)),repeating-linear-gradient(0deg,transparent 0 23px,rgba(255,255,255,.06) 23px 24px)}
+.pic small{position:absolute;left:12px;top:12px;font:500 .65rem "Space Grotesk";letter-spacing:.14em;text-transform:uppercase;background:rgba(7,9,15,.55);color:#eef2f8;padding:4px 9px;border-radius:99px}
+.fav{position:absolute;right:10px;top:10px;width:36px;height:36px;border-radius:50%;border:0;background:rgba(7,9,15,.55);color:#eef2f8;font-size:1.05rem;cursor:pointer}
+.fav[aria-pressed="true"]{background:var(--acc);color:var(--on-acc)}
+.info{padding:16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.info b{font-size:1rem}.info span{color:var(--mute);font-size:.8rem}
+.info .btn{margin-top:auto;text-align:center;padding:11px;font-size:.75rem}
+.brands{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--fg);font:inherit;padding:11px 20px;border-radius:99px;cursor:pointer;letter-spacing:.06em}
+.chip[aria-selected="true"]{background:var(--acc);color:var(--on-acc);border-color:var(--acc)}
+.panel{border:1px solid var(--line);background:linear-gradient(135deg,var(--card),transparent);border-radius:22px;padding:28px;max-width:760px}
+.panel h3{font-family:Syne,sans-serif;font-size:1.6rem;margin:0 0 8px}
+.panel p{color:var(--mute);margin:0 0 10px}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.feat{border:1px solid var(--line);border-radius:20px;padding:24px;background:var(--card)}
+.feat i{font-style:normal;color:var(--acc);font-family:Syne;font-size:1.6rem}
+.feat h3{margin:8px 0 6px}.feat p{margin:0;color:var(--mute);font-size:.9rem}
+footer{border-top:1px solid var(--line);padding:36px 0;color:var(--mute);font-size:.82rem}
+footer p{max-width:760px;margin:0 0 10px}
+.empty{color:var(--mute);grid-column:1/-1;padding:30px 0}
+@media (max-width:640px){nav a:not(:last-child){display:none}.hero{min-height:82vh}.hero img{object-position:50% 30%}.btn.ghost{margin:10px 0 0}section{padding:52px 0}}
+@media (prefers-reduced-motion:reduce){.marq div{animation:none}*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="#top">GEN<span>STYLE</span></a><nav><a href="#katalog">Katalog</a><a href="#brand">Brand</a><a href="#info">Info</a></nav></div></header>
+
+<main id="top">
+<div class="hero">
+<img src="hero.jpg" alt="Dua model mengenakan cargo pants dan sneakers putih, difoto dari sudut rendah dengan langit biru">
+<div class="wrap">
+<span class="tag">Katalog Fashion 2026</span>
+<h1>STYLE<br>FOR THE <em>NEXT</em><br>GENERATION.</h1>
+<p>Jelajahi pilihan fashion dari berbagai brand dalam satu katalog. Temukan gayamu, lalu menuju langsung ke toko resmi.</p>
+<a class="btn" href="#katalog">Jelajahi Katalog</a><a class="btn ghost" href="#brand">Lihat Brand</a>
+</div></div>
+
+<div class="marq" aria-hidden="true"><div>CARGO ✦ DENIM ✦ SNEAKERS ✦ OUTERWEAR ✦ AKSESORIS ✦ STREETWEAR ✦ CARGO ✦ DENIM ✦ SNEAKERS ✦ OUTERWEAR ✦ AKSESORIS ✦ STREETWEAR ✦ </div></div>
+
+<section id="katalog"><div class="wrap">
+<div class="sh"><div><h2>KATALOG</h2><div class="sub">Data produk di bawah adalah contoh ilustratif. Ganti dengan produk dan link toko asli.</div></div>
+<div class="tools"><input id="q" type="search" placeholder="Cari produk…" aria-label="Cari produk"><select id="s" aria-label="Urutkan"><option value="new">Terbaru</option><option value="az">Nama A–Z</option></select></div></div>
+<div class="grid" id="grid"></div>
+</div></section>
+
+<section id="brand" style="background:var(--card);border-block:1px solid var(--line)"><div class="wrap">
+<div class="sh"><div><h2>BRAND</h2><div class="sub">Pilih brand untuk melihat deskripsinya.</div></div></div>
+<div class="brands" id="brands" role="tablist"></div>
+<div class="panel" id="panel" role="tabpanel"></div>
+</div></section>
+
+<section id="info"><div class="wrap"><div class="cols">
+<div class="feat"><i>01</i><h3>Katalog, bukan toko</h3><p>Tanpa keranjang atau pembayaran. Klik tombol untuk menuju toko penjual.</p></div>
+<div class="feat"><i>02</i><h3>Kurasi rapi</h3><p>Produk dikelompokkan per kategori dan brand agar mudah dibandingkan.</p></div>
+<div class="feat"><i>03</i><h3>Transparan</h3><p>Info yang belum diverifikasi ditandai jelas. Tidak ada klaim harga atau spesifikasi tanpa sumber.</p></div>
+</div></div></section>
+</main>
+
+<footer><div class="wrap">
+<p><b>Pengungkapan afiliasi:</b> GenStyle dapat menerima komisi jika kamu membeli lewat tautan di situs ini, tanpa biaya tambahan untukmu. GenStyle tidak berafiliasi resmi dengan brand atau merchant mana pun kecuali dinyatakan.</p>
+<p>Semua nama brand dan produk di halaman ini adalah contoh ilustratif. © 2026 GenStyle.</p>
+</div></footer>
+
+<script>
+var P=[["Wide Cargo Pants","Pria · Bawahan","W","#4b5a3a","#1b2412"],["Wide-Leg Cargo Denim","Wanita · Bawahan","D","#4f7fb5","#142a46"],["Court Sneakers Putih","Unisex · Sepatu","S","#8c97a8","#2a3140"],["Cropped Bomber Cream","Wanita · Outerwear","B","#d9c9a8","#6b5a3c"],["Utility Jacket Hitam","Pria · Outerwear","J","#2c3342","#07090f"],["Daypack Utility","Unisex · Tas","P","#3a4252","#0e131d"],["Dad Cap Krem","Unisex · Aksesori","C","#cbbd9b","#5d5238"],["Kacamata Hitam Slim","Unisex · Aksesori","K","#3de0ff","#12203a"]];
+var B=[["Arc Studio","Brand contoh bergaya utilitarian modern. Ganti teks ini dengan deskripsi, asal negara, dan sumber resmi brand."],["Kuro Wear","Brand contoh bernuansa monokrom dan minimalis. Isi dengan keterangan brand yang sudah diverifikasi."],["Nimbus","Brand contoh untuk sneakers dan aksesori harian. Isi dengan deskripsi dan tautan situs resmi."]];
+var fav={},g=document.getElementById("grid"),q=document.getElementById("q"),s=document.getElementById("s");
+function esc(t){var d=document.createElement("div");d.textContent=t;return d.innerHTML}
+function draw(){var k=q.value.trim().toLowerCase(),L=P.filter(function(p){return (p[0]+p[1]).toLowerCase().indexOf(k)>-1});
+if(s.value==="az")L.sort(function(a,b){return a[0].localeCompare(b[0])});
+g.innerHTML=L.length?L.map(function(p){var i=P.indexOf(p);return '<article class="card"><div class="pic" style="--a:'+p[3]+';--b:'+p[4]+'">'+p[2]+'<small>Contoh</small><button class="fav" data-i="'+i+'" aria-pressed="'+!!fav[i]+'" aria-label="Favorit">'+(fav[i]?"♥":"♡")+'</button></div><div class="info"><b>'+esc(p[0])+'</b><span>'+esc(p[1])+'</span><a class="btn" href="#" rel="sponsored noopener" target="_blank">Menuju Ke Toko</a></div></article>'}).join(""):'<div class="empty">Produk tidak ditemukan.</div>'}
+g.addEventListener("click",function(e){var b=e.target.closest(".fav");if(b){fav[b.dataset.i]=!fav[b.dataset.i];draw()}var a=e.target.closest("a.btn");if(a&&a.getAttribute("href")==="#")e.preventDefault()});
+q.addEventListener("input",draw);s.addEventListener("change",draw);draw();
+var bs=document.getElementById("brands"),pn=document.getElementById("panel");
+function pick(i){bs.querySelectorAll(".chip").forEach(function(c,j){c.setAttribute("aria-selected",j===i)});pn.innerHTML="<h3>"+esc(B[i][0])+"</h3><p>"+esc(B[i][1])+"</p><p><small>Status verifikasi: belum diverifikasi (contoh)</small></p>"}
+bs.innerHTML=B.map(function(b,i){return '<button class="chip" role="tab" data-i="'+i+'">'+esc(b[0])+'</button>'}).join("");
+bs.addEventListener("click",function(e){var c=e.target.closest(".chip");if(c)pick(+c.dataset.i)});pick(0);
+</script>
+</body>
+</html>
