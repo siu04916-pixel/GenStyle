@@ -1,0 +1,60 @@
+/* Penyesuaian tampilan untuk semua perangkat. Dimuat setelah style.css. */
+img{max-width:100%;height:auto}
+.hero img{object-position:50% 25%}
+
+/* HP (potret) */
+@media (max-width:640px){
+.wrap{padding:0 18px}
+.hero{min-height:clamp(520px,74vh,660px);min-height:clamp(520px,74svh,660px)}
+.hero img{object-position:50% 20%}
+}
+
+/* Tablet / iPad dan di atasnya */
+@media (min-width:641px){
+.wrap{padding:0 28px}
+.hero{min-height:clamp(480px,62vw,680px)}
+.grid{grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:20px}
+section{padding:84px 0}
+.tools input{width:260px}
+}
+
+/* Laptop dan desktop */
+@media (min-width:1024px){
+.wrap{max-width:1280px;padding:0 36px}
+.nav{height:72px}
+nav a{margin-left:32px}
+.hero{min-height:0;height:clamp(560px,50vw,800px)}
+.hero .wrap{padding-bottom:64px}
+.hero p{max-width:540px;font-size:1.08rem}
+.grid{grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:24px}
+}
+
+/* Monitor lebar */
+@media (min-width:1440px){
+html{font-size:106%}
+.wrap{max-width:1440px;padding:0 48px}
+.hero{height:clamp(640px,46vw,860px)}
+.grid{grid-template-columns:repeat(auto-fill,minmax(270px,1fr))}
+}
+
+/* Monitor sangat lebar (Full HD ke atas) */
+@media (min-width:1920px){
+html{font-size:112%}
+.wrap{max-width:1680px}
+.hero{height:clamp(760px,42vw,920px)}
+}
+
+/* HP dalam posisi mendatar */
+@media (max-height:520px) and (orientation:landscape){
+.hero{height:auto;min-height:420px}
+.hero .wrap{padding-bottom:28px}
+h1{font-size:clamp(2rem,7vw,3.6rem)}
+section{padding:48px 0}
+}
+
+/* Layar sentuh: matikan efek hover yang bikin kartu "lengket" */
+@media (hover:none){
+.card:hover{transform:none;border-color:var(--line)}
+.card.hot:hover{border-color:var(--pink)}
+.btn:hover{transform:none;box-shadow:none}
+}
