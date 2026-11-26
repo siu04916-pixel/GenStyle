@@ -1,5 +1,5 @@
 {
-  // Konfigurasi deploy GenStyle. Nama Worker harus tetap genstyle-7.
+  // Konfigurasi deploy GenStyle. Nama Worker harus tetap genstyle-7. Jangan diubah lewat dashboard Cloudflare.
   "name": "genstyle-7",
   "main": "worker.js",
   "compatibility_date": "2025-09-01",
