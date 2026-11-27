@@ -2,6 +2,7 @@
    id: huruf kecil, angka, tanda minus (dipakai untuk menghitung klik).
    img: foto ada di repositori ini (mis. folder assets/). Kalau foto belum ada, kartu tampil polos tanpa foto. */
 var P=[
+{id:"set-gelang-ctr-nagita-clover",name:"Set Gelang CTR Nagita & Clover",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-822wr-mpuv70okioe8c0",url:"https://s.shopee.co.id/8KrPvYfA5l"},
 {id:"holly-sling-bag-mini-wanita",name:"Holly Sling Bag Mini Wanita",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-81ztp-merayq8irc3k95",url:"https://s.shopee.co.id/AUvuV7LUDZ"},
 {id:"jaket-wanita-crop-kekinian",name:"Jaket Wanita Crop Kekinian",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-7r98q-lvypw79co8q6f7",url:"https://s.shopee.co.id/6AmvK0rwfK"},
 {id:"cardigan-korea-premium-blazer-tweed-2267",name:"Cardigan Korea Premium Blazer Tweed 2267",meta:"",img:"https://down-id.img.susercontent.com/file/8ccca678de27dd93657e121a5151469c",url:"https://s.shopee.co.id/5fqeguGc2j"},
