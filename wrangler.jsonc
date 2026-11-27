@@ -1,7 +1,6 @@
 {
   // Konfigurasi deploy GenStyle. Nama Worker harus tetap genstyle-7. Jangan diubah lewat dashboard Cloudflare.
   // Situs ini HANYA boleh di-deploy lewat commit ke GitHub (lihat README.md).
-  "format": "module",
   "name": "genstyle-7",
   "main": "worker.js",
   "compatibility_date": "2025-09-01",
