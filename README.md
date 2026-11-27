@@ -1,7 +1,8 @@
 # GenStyle - aturan pengelolaan
 
 Baca ini sebelum mengubah apa pun (manusia maupun agen otomatis).
-Panduan lengkap menambah produk untuk agen AI ada di `AGENTS.md`.
+- Aturan dan larangan agen AI: `AGENTS.md`
+- Alur kerja agen AI langkah demi langkah (INTAKE sampai REPORT): `WORKFLOW.md`
 
 - Situs di-deploy OTOMATIS oleh Cloudflare setiap ada commit ke cabang `main` (Worker `genstyle-7`, konfigurasi di `wrangler.jsonc`).
 - JANGAN men-deploy atau mengunggah script Worker `genstyle-7` secara langsung lewat API, wrangler, atau editor dashboard. Itu menimpa situs yang benar dengan versi rusak (gambar placeholder, video placeholder, tanpa database, halaman error).
