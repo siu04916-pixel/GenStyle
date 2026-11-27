@@ -19,6 +19,7 @@ var P=[
 {id:"dress-biru-ruffle",name:"Dress Biru Ruffle Layer Soft Girl Long Dress",meta:"",img:"assets/dress-biru-ruffle.jpg",url:"https://s.shopee.co.id/AUvrsYQEBD"},
 {id:"payung-romansa",name:"Payung Romansa",meta:"",img:"Payung%20Romansa.jpg",url:"https://s.shopee.co.id/1W138AAmFo"},
 {id:"atasan-zelena",name:"ATASAN ZELENA",meta:"",img:"assets/atan.jpg",url:"https://s.shopee.co.id/BVgJT3QU7"}
+{id:"croptop-hoodie-lisa-blackpink",name:"Croptop Hoodie Lisa Blackpink",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-81zte-mubvde1mpudg53",url:"https://s.shopee.co.id/4B1qzrTfjn"},
 ];
 var B=[
 ["Arc Studio","Brand contoh bergaya utilitarian modern. Ganti teks ini dengan deskripsi, asal negara, dan sumber resmi brand."],
