@@ -2,7 +2,6 @@
    id: huruf kecil, angka, tanda minus (dipakai untuk menghitung klik).
    img: foto ada di repositori ini (mis. folder assets/). Kalau foto belum ada, kartu tampil polos tanpa foto. */
 var P=[
-{id:"cardigan-rajut-crop-top-tali-motif-bunga-bahan",name:"Cardigan Rajut Crop Top Tali Motif Bunga Bahan",meta:"",img:"assets/cardigan-rajut-crop-top-tali-motif-bunga-bahan.jpg",url:"https://s.shopee.co.id/2gD2pyGQ2y"},
 {id:"cardigan-crop-flower-premium-rajut-sweater-wanita",name:"Cardigan Crop Flower Premium Rajut Sweater Wanita",meta:"",img:"assets/cardigan-crop-flower-premium-rajut-sweater-wanita.jpg",url:"https://s.shopee.co.id/2BGlqUQEiS"},
 {id:"one-set-wanita-katun-rami-premium",name:"One Set Wanita Katun Rami Premium",meta:"",img:"assets/one-set-wanita-katun-rami-premium.jpg",url:"https://s.shopee.co.id/9zzd5t72Xk"},
 {id:"one-set-christmas-2027",name:"One Set Christmas 2027",meta:"",img:"assets/one-set-christmas-2027.jpg",url:"https://s.shopee.co.id/2VtboPBPGB"},
