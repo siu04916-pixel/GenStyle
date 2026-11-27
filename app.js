@@ -15,7 +15,7 @@ if(s.value==="az"){L.sort(function(a,b){return a.name.localeCompare(b.name)})}
 else{L.sort(function(a,b){var ra=rank[a.id]||99,rb=rank[b.id]||99;return ra!==rb?ra-rb:P.indexOf(a)-P.indexOf(b)})}
 g.innerHTML=L.length?L.map(function(p){
 var r=rank[p.id];
-return '<article class="card'+(r?' hot':'')+'"><div class="pic"><img src="'+p.img+'" alt="'+esc(p.name)+'" loading="lazy">'
+return '<article class="card'+(r?' hot':'')+'"><div class="pic"><img src="'+p.img+'" alt="'+esc(p.name)+'" loading="lazy" onerror="this.style.display=\'none\'">'
 +(r?'<span class="rank">Top '+r+'</span>':'')
 +'<button class="heart" type="button" data-id="'+p.id+'" aria-pressed="'+(!!liked[p.id])+'" aria-label="Suka '+esc(p.name)+'"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="'+HEART+'" fill="url(#hg)"/></svg></button></div>'
 +'<div class="info"><b>'+esc(p.name)+'</b>'+(p.meta?'<span>'+esc(p.meta)+'</span>':'')
