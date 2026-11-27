@@ -2,6 +2,7 @@
    id: huruf kecil, angka, tanda minus (dipakai untuk menghitung klik).
    img: foto ada di repositori ini (mis. folder assets/). Kalau foto belum ada, kartu tampil polos tanpa foto. */
 var P=[
+{id:"cardigan-korea-premium-blazer-tweed-2267",name:"Cardigan Korea Premium Blazer Tweed 2267",meta:"",img:"https://down-id.img.susercontent.com/file/8ccca678de27dd93657e121a5151469c",url:"https://s.shopee.co.id/5fqeguGc2j"},
 {id:"sevine-kiora-sling-bag",name:"Sevine Kiora Sling Bag Bagcharm",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-8224y-mkc0fxqf8lxk95",url:"https://s.shopee.co.id/2gD36foKvU"},
 {id:"cardigan-rajut-tali-pita-panjang",name:"Cardigan Rajut Tali Pita Panjang",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-7rask-m2hlmmu05hoj88",url:"https://s.shopee.co.id/9Kjx0O1YCN"},
 {id:"blouse-knit-kerah-pita-salur",name:"Blouse Knit Kerah Pita Salur",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-7rasf-m2t2sq78upmne0",url:"https://s.shopee.co.id/7AfSIJQciZ"},
