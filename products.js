@@ -2,7 +2,6 @@
    id: huruf kecil, angka, tanda minus (dipakai untuk menghitung klik).
    img: foto ada di repositori ini (mis. folder assets/). Kalau foto belum ada, kartu tampil polos tanpa foto. */
 var P=[
-{id:"croptop-hoodie-lisa-blackpink",name:"Croptop Hoodie Lisa Blackpink",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-81zte-mubvde1mpudg53",url:"https://s.shopee.co.id/4B1qzrTfjn"},
 {id:"jaket-korduroi-pendek-retro-wanita",name:"Jaket Korduroi Pendek Retro Wanita",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-7qukw-lk3e9s3tywiyd2",url:"https://s.shopee.co.id/9AQWwQGd7g"},
 {id:"set-gelang-ctr-nagita-clover",name:"Set Gelang CTR Nagita & Clover",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-822wr-mpuv70okioe8c0",url:"https://s.shopee.co.id/8KrPvYfA5l"},
 {id:"holly-sling-bag-mini-wanita",name:"Holly Sling Bag Mini Wanita",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-81ztp-merayq8irc3k95",url:"https://s.shopee.co.id/AUvuV7LUDZ"},
