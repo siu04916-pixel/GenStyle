@@ -2,6 +2,7 @@
    id: huruf kecil, angka, tanda minus (dipakai untuk menghitung klik).
    img: foto ada di repositori ini (mis. folder assets/). Kalau foto belum ada, kartu tampil polos tanpa foto. */
 var P=[
+{id:"tgif-violet-blouse-renda-korean-style",name:"TGIF VIOLET Blouse Renda Korean Style",meta:"",img:"https://down-id.img.susercontent.com/file/8277bc4a3e652d8589c2b4f07ad4c644",url:"https://s.shopee.co.id/5qA6BV3QOJ"},
 {id:"heysoul-soft-y2k-lace-top-off-shoulder",name:"HEYSOUL Soft Y2K Lace Top Off Shoulder",meta:"",img:"https://down-id.img.susercontent.com/file/sg-11134201-821cx-mghopmupyd581a",url:"https://s.shopee.co.id/2Vte5qORDJ"},
 {id:"mosa-dress-pesta-gaun-evening-1236",name:"MOSA Dress Pesta Premium 1236",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134201-81zte-mtomxy0u3vgka5",url:"https://s.shopee.co.id/9fMocqJ82E"},
 {id:"cammomile-new-berry-af-outer-2307011",name:"Cammomile New BERRY AF Outer Korea Style",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-81ztj-mrvltbevc4co06",url:"https://s.shopee.co.id/8fUHQqI2QH"},
