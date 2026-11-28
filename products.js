@@ -2,6 +2,7 @@
    id: huruf kecil, angka, tanda minus (dipakai untuk menghitung klik).
    img: foto ada di repositori ini (mis. folder assets/). Kalau foto belum ada, kartu tampil polos tanpa foto. */
 var P=[
+{id:"hi-ziraaa-candy-blouse-stripe",name:"hi.ziraaa Candy Blouse Stripe Korean Style",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-7r98p-lw71co33roda82",url:"https://s.shopee.co.id/1W16sG4m8t"},
 {id:"kiwi-marcinda-blouse-lengan-panjang",name:"KIWI Marcinda Blouse Tali Pinggang",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-7ra0m-mcaehdanfk8ya1",url:"https://s.shopee.co.id/6q2dA1CeHI"},
 {id:"arika-blouse-stripe-peplum-puff",name:"Arika Blouse Stripe Peplum Puff",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-7ra0p-mc4gajhtxyyk2d",url:"https://s.shopee.co.id/4B1ryu5EEj"},
 {id:"jacket-crope-baseball-korean-style",name:"Jacket Crope Baseball Korean Style",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-7rask-m0zkjxkwzgy261",url:"https://s.shopee.co.id/6VPmkI50kq"},
