@@ -2,6 +2,7 @@
    id: huruf kecil, angka, tanda minus (dipakai untuk menghitung klik).
    img: foto ada di repositori ini (mis. folder assets/). Kalau foto belum ada, kartu tampil polos tanpa foto. */
 var P=[
+{id:"cammomile-new-berry-af-outer-2307011",name:"Cammomile New BERRY AF Outer Korea Style",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-81ztj-mrvltbevc4co06",url:"https://s.shopee.co.id/8fUHQqI2QH"},
 {id:"kiwi-keren-atasan-renda-hijab-friendly",name:"KIWI KEREN Atasan Renda Wanita Hijab Friendly Casual",meta:"",img:"https://down-id.img.susercontent.com/file/fd4122ba045f09703d9954c7c27da3f0",url:"https://s.shopee.co.id/W8ZhAzI2l"},
 {id:"kiwi-lisa-blouse-renda-korean-style",name:"KIWI LISA Blouse Renda Korean Style",meta:"",img:"https://down-id.img.susercontent.com/file/0165c185dee109ab89f4c056c079fe3c",url:"https://s.shopee.co.id/6fjD2IuOz3"},
 {id:"hi-ziraaa-candy-blouse-stripe",name:"hi.ziraaa Candy Blouse Stripe Korean Style",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-7r98p-lw71co33roda82",url:"https://s.shopee.co.id/1W16sG4m8t"},
