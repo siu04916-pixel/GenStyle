@@ -2,6 +2,7 @@
    id: huruf kecil, angka, tanda minus (dipakai untuk menghitung klik).
    img: foto ada di repositori ini (mis. folder assets/). Kalau foto belum ada, kartu tampil polos tanpa foto. */
 var P=[
+{id:"answer-me-jaket-crop-wanita-korean-style",name:"Answer Me Jaket Crop Korean Style",meta:"",img:"https://down-id.img.susercontent.com/file/sg-11134201-8259m-mrou5scxant1bf",url:"https://s.shopee.co.id/Lp9LE2rx0"},
 {id:"double-zipp-crope-japanese-jaket-wanita",name:"Double Zipp Crope Japanese Jacket",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-7rasi-m23z96reoa99a7",url:"https://s.shopee.co.id/60TW5MFzsr"},
 {id:"jam-tangan-rebirth-luxury-diamond-quartz",name:"Jam Tangan Rebirth Luxury Diamond Quartz",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-81ztj-ms245rhxu32e83",url:"https://s.shopee.co.id/BVimKTMvj"},
 {id:"chard-wake-jam-tangan-wanita",name:"Chard Wake Jam Tangan Wanita",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-8224y-mgivbod6osged5",url:"https://s.shopee.co.id/9077IJfjUY"},
