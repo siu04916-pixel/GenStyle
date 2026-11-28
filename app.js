@@ -57,7 +57,7 @@ rank=next;draw();
 
 g.addEventListener("click",function(e){
 var h=e.target.closest(".heart");
-if(h){var id=h.getAttribute("data-id");liked[id]=!liked[id];h.setAttribute("aria-pressed",!!liked[id]);saveLiked();burst(h);return}
+if(h){var id=h.getAttribute("data-id");liked[id]=!liked[id];h.setAttribute("aria-pressed",!!liked[id]);saveLiked();if(liked[id])burst(h);return}
 var a=e.target.closest("a.btn[data-id]");if(a)track(a.getAttribute("data-id"));
 });
 g.addEventListener("auxclick",function(e){var a=e.target.closest("a.btn[data-id]");if(a)track(a.getAttribute("data-id"))});

@@ -49,10 +49,10 @@ h2{font-family:Syne,sans-serif;font-size:clamp(1.7rem,4vw,2.6rem);margin:0;line-
 .heart[aria-pressed="true"]{background:rgba(255,64,129,.34)}
 .heart[aria-pressed="true"] svg{filter:drop-shadow(0 0 9px rgba(255,64,129,1))}
 .heart:focus-visible{outline:2px solid #fff;outline-offset:3px}
-.card.hot .heart{animation:glow 1.8s ease-out infinite}
-.card.hot .heart svg{animation:beat 1.1s ease-in-out infinite;filter:drop-shadow(0 0 11px rgba(255,64,129,1))}
-.card.hot .heart::before,.card.hot .heart::after{animation:wave 1.8s ease-out infinite}
-.card.hot .heart::after{animation-delay:.9s}
+.card.hot .heart,.heart[aria-pressed="true"]{animation:glow 1.8s ease-out infinite}
+.card.hot .heart svg,.heart[aria-pressed="true"] svg{animation:beat 1.1s ease-in-out infinite;filter:drop-shadow(0 0 11px rgba(255,64,129,1))}
+.card.hot .heart::before,.card.hot .heart::after,.heart[aria-pressed="true"]::before,.heart[aria-pressed="true"]::after{animation:wave 1.8s ease-out infinite}
+.card.hot .heart::after,.heart[aria-pressed="true"]::after{animation-delay:.9s}
 .card .heart.burst svg{animation:pop .75s cubic-bezier(.2,1.5,.4,1) 1}
 .card .heart.burst::before{animation:wave2 .9s ease-out 1 both}
 .card .heart.burst::after{animation:wave2 .9s ease-out .15s 1 both}
