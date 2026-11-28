@@ -2,6 +2,7 @@
    id: huruf kecil, angka, tanda minus (dipakai untuk menghitung klik).
    img: foto ada di repositori ini (mis. folder assets/). Kalau foto belum ada, kartu tampil polos tanpa foto. */
 var P=[
+{id:"yoora-cardi-korea-kardigan-wanita-premium",name:"YOORA CARDI KOREA Kardigan Wanita Premium",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-7r990-ltbpi1ppngqhbe",url:"https://s.shopee.co.id/8AY10zNNsx"},
 {id:"papadi-blouse-putih-korean-style-ib0024",name:"PAPADI Blouse Putih Korean Style IB0024",meta:"",img:"https://down-id.img.susercontent.com/file/sg-11134201-23030-lrdfg36pupovd7",url:"https://s.shopee.co.id/1CJGHwOK1"},
 {id:"heysoul-one-shoulder-sheer-drawstring-top",name:"HEYSOUL One Shoulder Sheer Drawstring Top",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-8224z-mh8urxsy17uz42",url:"https://s.shopee.co.id/3qP1orWTyu"},
 {id:"tgif-violet-blouse-renda-korean-style",name:"TGIF VIOLET Blouse Renda Korean Style",meta:"",img:"https://down-id.img.susercontent.com/file/8277bc4a3e652d8589c2b4f07ad4c644",url:"https://s.shopee.co.id/5qA6BV3QOJ"},
