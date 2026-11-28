@@ -2,6 +2,7 @@
    id: huruf kecil, angka, tanda minus (dipakai untuk menghitung klik).
    img: foto ada di repositori ini (mis. folder assets/). Kalau foto belum ada, kartu tampil polos tanpa foto. */
 var P=[
+{id:"jam-tangan-rebirth-luxury-diamond-quartz",name:"Jam Tangan Rebirth Luxury Diamond Quartz",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-81ztj-ms245rhxu32e83",url:"https://s.shopee.co.id/BVimKTMvj"},
 {id:"chard-wake-jam-tangan-wanita",name:"Chard Wake Jam Tangan Wanita",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-8224y-mgivbod6osged5",url:"https://s.shopee.co.id/9077IJfjUY"},
 {id:"jam-tangan-yunn-analog-korea-mini-slim",name:"Jam Tangan Yunn Analog Korea Mini Slim",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-81ztd-meth2anidu6869",url:"https://s.shopee.co.id/BVilSoDfG"},
 {id:"croptop-hoodie-lisa-blackpink",name:"Croptop Hoodie Lisa Blackpink",meta:"",img:"https://down-id.img.susercontent.com/file/id-11134207-81zte-mubvde1mpudg53",url:"https://s.shopee.co.id/4B1qzrTfjn"},
